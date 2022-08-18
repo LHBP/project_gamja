@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOGIN</title>
+        <meta charset="utf-8" />
+        <link href="style3.css" rel="stylesheet" />
+        <style>
+            body {
+                background-image: url('login.png');
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-position: 0px 70px;
+            }
+            .login {
+                right: 300px; top: 300px;  
+              }
+        </style>
+    </head>
+    
+    <body>
+    <!--상단 메뉴바-->
+    <div class="navbar">
+        <a class="logo" href="main.html">
+          <img src="logo.jpeg" height="20px"> <!--로고 이미지 들어가야함-->
+        </a>
+        <ul>
+          <li><a href="#">Cart</a></li>
+          <li><a href="#">Mileage</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+      <hr size="5px" color="#000" noshade></hr>
+      
+      <div class="login">
+        <form action="main.html" method="get">
+            <table>
+                <tr> 
+                    <td> <label for="id">ID</label> </td>
+                    <td> <input type="text" name="id"> </td>
+                </tr>
+                <tr> 
+                    <td> <label for="password">PASSWORD</label> </td>
+                    <td> <input type="text" name="password"> </td>
+                </tr>
+            </table>
+            <input type="submit" value="LOGIN">
+        </form>    
+      </div>
+    </body>
+</html>

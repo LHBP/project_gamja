@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    min-width: 992px;
+    font-family: "Helvetica";
+  }
+   
+  .navbar{
+    height: 60px;
+    padding-left: 30px;
+  }
+  
+  .logo{
+    line-height: 100%;
+    float: left;
+  }
+  
+  .logo img{
+    vertical-align: middle;
+    width: 100px;
+    height: 60px;
+  }
+  
+  .navbar ul{
+    float: right;
+  }
+  
+  .navbar li{
+    list-style-type: none;
+    float: left;
+    margin-right: 30px;
+  }
+  
+  .navbar a{
+    text-decoration: none;
+    color: black;
+    font-style: bold;
+    font-size: 13px;
+  }
+
+  .login {
+    left: 300px; top: 300px;  
+  }
